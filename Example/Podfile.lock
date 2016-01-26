@@ -1,0 +1,14 @@
+PODS:
+  - ZJTools (0.1.0)
+
+DEPENDENCIES:
+  - ZJTools (from `../`)
+
+EXTERNAL SOURCES:
+  ZJTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJTools: f6e4ec18d43e4f47553770835be66ca473fe070a
+
+COCOAPODS: 0.39.0
