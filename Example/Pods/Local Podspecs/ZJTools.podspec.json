@@ -2,14 +2,14 @@
   "name": "ZJTools",
   "version": "0.1.0",
   "summary": "A short description of ZJTools.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ZJTools",
+  "description": "A short description of ZJTools.A short description of ZJTools.",
+  "homepage": "https://github.com/ingridzhang/ZJTools",
   "license": "MIT",
   "authors": {
-    "zhangjing": "542727052@qq.com"
+    "ingridzhang": "542727052@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ZJTools.git",
+    "git": "https://github.com/ingridzhang/ZJTools.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "ZJTools": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
     ]
   }
 }
