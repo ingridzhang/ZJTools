@@ -22,7 +22,7 @@ pod "ZJTools"
 
 ## Author
 
-zhangjing, 542727052@qq.com
+ingridzhang, 542727052@qq.com
 
 ## License
 
