@@ -37,6 +37,8 @@
 		187C008C1C577F3B0048843A /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00741C577F3B0048843A /* UILabel+Extension.m */; };
 		187C00901C577F810048843A /* NetworkTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C008E1C577F810048843A /* NetworkTools.h */; };
 		187C00911C577F810048843A /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C008F1C577F810048843A /* NetworkTools.m */; };
+		187C00B41C59C1B10048843A /* ZJUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C00B21C59C1B10048843A /* ZJUtility.h */; };
+		187C00B51C59C1B10048843A /* ZJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00B31C59C1B10048843A /* ZJUtility.m */; };
 		1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F038A96B121CC91D56AAF16344A1C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E75F3372A055B3EE897EBBC3BA0F88 /* Foundation.framework */; };
 		20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */; };
@@ -165,6 +167,8 @@
 		187C00741C577F3B0048843A /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		187C008E1C577F810048843A /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
 		187C008F1C577F810048843A /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
+		187C00B21C59C1B10048843A /* ZJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJUtility.h; sourceTree = "<group>"; };
+		187C00B31C59C1B10048843A /* ZJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJUtility.m; sourceTree = "<group>"; };
 		1BD1284BD442D4F8F4BECC10C3502DCB /* Pods-ZJTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		1DE5F6E2155E6D6A03A95898A65E8701 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		26529ACF49D4B6C34E347401C973130F /* Pods-ZJTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -554,6 +558,8 @@
 			children = (
 				187C008D1C577F810048843A /* Networking */,
 				187C005C1C577F3B0048843A /* Categories */,
+				187C00B21C59C1B10048843A /* ZJUtility.h */,
+				187C00B31C59C1B10048843A /* ZJUtility.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -617,6 +623,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187C008B1C577F3B0048843A /* UILabel+Extension.h in Headers */,
+				187C00B41C59C1B10048843A /* ZJUtility.h in Headers */,
 				187C00901C577F810048843A /* NetworkTools.h in Headers */,
 				187C00831C577F3B0048843A /* UIButton+Extension.h in Headers */,
 				187C007D1C577F3B0048843A /* NSString+Extension.h in Headers */,
@@ -828,6 +835,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187C00781C577F3B0048843A /* NSDate+Extension.m in Sources */,
+				187C00B51C59C1B10048843A /* ZJUtility.m in Sources */,
 				187C007A1C577F3B0048843A /* NSDictionary+Access.m in Sources */,
 				187C008C1C577F3B0048843A /* UILabel+Extension.m in Sources */,
 				187C00881C577F3B0048843A /* UIDevice+DeviceName.m in Sources */,
