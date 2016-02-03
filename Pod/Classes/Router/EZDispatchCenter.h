@@ -11,18 +11,13 @@
 
 @interface EZDispatchCenter : NSObject
 
-+ (instancetype)defaultDispatchCenter;
-
 @property (nonatomic, strong) Class jumpController;
 @property (nonatomic, strong) NSDictionary *parameters;
 @property (nonatomic, strong) NSString *module;
 @property (nonatomic, strong) NSDictionary *userInfo;
-
 @property (nonatomic, strong) NSString *url;
 
-
-@property (nonatomic, strong) BOOL(^authenticationFailure)(void);
-
++ (instancetype)sharedInstance;
 - (BOOL)jumpToViewController;
 
 @end

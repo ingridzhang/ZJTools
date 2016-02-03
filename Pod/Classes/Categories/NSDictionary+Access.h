@@ -1,7 +1,7 @@
 //
 //  NSDictionary+Access.h
 //  EasyJie
-//  可通过此类直接得到相应的基础类型，不需要通过NSNumber进行转换
+//
 //  Created by ricky on 14-8-28.
 //  Copyright (c) 2014年 rickycui. All rights reserved.
 //

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZJHeader.h"
 
 typedef NS_ENUM(NSUInteger, ZZAudioFileType){
     
@@ -53,4 +54,6 @@ typedef NS_ENUM(NSUInteger, GradientType)  {
 
 // 得到一个对象的所有属性名称，以数组形式返回
 + (NSArray<NSString *> *)getAllPropertiesForClass:(NSString *)className;
+//邮箱格式检测
+- (BOOL) validateEmail:(NSString *)candidate;
 @end

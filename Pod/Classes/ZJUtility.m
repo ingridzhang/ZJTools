@@ -73,10 +73,9 @@ static NSString * const AudioTempCacheFolderName = @"fanTingTemp";
     return cacheFolder;
 }
 
-+ (NSArray *)getLocalFilePathWithAudioUrl:(NSString *)url type:(ZZAudioFileType)type{
-    
++ (NSArray *)getLocalFilePathWithAudioUrl:(NSString *)url type:(ZZAudioFileType)type{    
     //    NSString *cacheKey = [[self class] cacheKeyFromUrl:url];
-    if (url.length > 0) {
+    if (IS_NOT_EMPTY(url)) {
         NSString *fileName=[[url componentsSeparatedByString:@"/"] lastObject];
         NSString * localFileName;
         if (type == ZZAudioFileTpoType) {
@@ -96,7 +95,7 @@ static NSString * const AudioTempCacheFolderName = @"fanTingTemp";
 
 + (NSString *)getLocalFilePathWithAudioUrl:(NSString *)url type:(ZZAudioFileType)type isTemp:(BOOL)isTemp{
     
-    if (url.length > 0) {
+    if (IS_NOT_EMPTY(url)) {
         NSString *fileName=[[url componentsSeparatedByString:@"/"] lastObject];
         NSString * localFileName;
         if (type == ZZAudioFileTpoType) {
@@ -108,13 +107,10 @@ static NSString * const AudioTempCacheFolderName = @"fanTingTemp";
         }
         NSString * localFilePath;
         if (isTemp) {
-            
             localFilePath = [[[self class] cacheFolder:AudioTempCacheFolderName] stringByAppendingPathComponent:localFileName];
             return localFilePath;
         }
-        
         localFilePath = [[[self class] cacheFolder:AudioCacheFolderName] stringByAppendingPathComponent:localFileName];
-        
         return localFilePath;
     }
     return nil;
@@ -227,6 +223,14 @@ static NSString * const AudioTempCacheFolderName = @"fanTingTemp";
     }
     free(properties);
     return propertiesArray;
+}
+
+//邮箱格式检测
+- (BOOL) validateEmail:(NSString *)candidate
+{
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    return [emailTest evaluateWithObject:candidate];
 }
 
 @end
