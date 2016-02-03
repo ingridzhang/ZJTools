@@ -18,6 +18,9 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"[EZJSocialHotPostListViewController]- self.page: %zd",self.page);
+    NSLog(@"[EZJSocialHotPostListViewController]- self.topicId: %@",self.topicId);
+    NSLog(@"[EZJSocialHotPostListViewController]- self.topic: %@",self.topic);
 }
 
 - (void)didReceiveMemoryWarning {

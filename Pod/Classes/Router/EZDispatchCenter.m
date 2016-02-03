@@ -26,7 +26,7 @@
     NSLog(@"jumpViewController -- %@",viewController);
     NSLog(@"self.parameters -- %@",self.parameters);
     NSLog(@"self.userInfo -- %@",self.userInfo);
-    
+    [viewController mj_setKeyValues:self.parameters];
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     UIViewController *vc = (UIViewController *)window.rootViewController;
     [vc presentViewController:viewController animated:YES completion:nil];

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface EZJSocialHotPostListViewController : UIViewController
-
+@property (nonatomic,assign) NSInteger page;
+@property (nonatomic,copy) NSString *topicId;
+@property (nonatomic,copy) NSString *topic;
 @end

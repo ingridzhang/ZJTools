@@ -28,7 +28,9 @@
 
 - (void)jumpTo {
     
-    [[ZJRouter sharedInstance] jump:@"app://social/hot_post_list?page=1&topicId=123456"];
+    [[ZJRouter sharedInstance] jump:@"app://social/hot_post_list?page=1&topicId=123456&topic=123"];
+    
+//    [[ZJRouter sharedInstance] jump:@"app://social/topic_list?name=你好"];
 }
 
 @end
