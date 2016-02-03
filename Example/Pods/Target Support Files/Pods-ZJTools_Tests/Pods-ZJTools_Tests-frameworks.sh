@@ -85,9 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ZJTools_Tests/AFNetworking.framework"
+  install_framework "Pods-ZJTools_Tests/MGJRouter.framework"
+  install_framework "Pods-ZJTools_Tests/MJExtension.framework"
   install_framework "Pods-ZJTools_Tests/ZJTools.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ZJTools_Tests/AFNetworking.framework"
+  install_framework "Pods-ZJTools_Tests/MGJRouter.framework"
+  install_framework "Pods-ZJTools_Tests/MJExtension.framework"
   install_framework "Pods-ZJTools_Tests/ZJTools.framework"
 fi

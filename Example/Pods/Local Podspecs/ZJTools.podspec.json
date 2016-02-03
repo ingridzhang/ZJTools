@@ -1,7 +1,7 @@
 {
   "name": "ZJTools",
-  "version": "0.1.0",
-  "summary": "A short description of ZJTools.",
+  "version": "0.1.1",
+  "summary": "ZJTools for all tools classes.",
   "description": "A short description of ZJTools.A short description of ZJTools.",
   "homepage": "https://github.com/ingridzhang/ZJTools",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/ingridzhang/ZJTools.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"
@@ -24,6 +24,12 @@
   },
   "dependencies": {
     "AFNetworking": [
+
+    ],
+    "MGJRouter": [
+
+    ],
+    "MJExtension": [
 
     ]
   }

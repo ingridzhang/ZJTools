@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187C00FB1C619D0B0048843A /* EZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00FA1C619D0B0048843A /* EZJViewController.m */; };
+		187C010B1C61AC4F0048843A /* EZJSocialHotPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C010A1C61AC4F0048843A /* EZJSocialHotPostListViewController.m */; };
 		4B78E69926DC3F503AC32A75 /* Pods_ZJTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA748BE6F4CCA74A3CC23BC /* Pods_ZJTools_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,14 +16,12 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C99365F3E9199B0ADABABD02 /* Pods_ZJTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCAC8394AB6877CD77E5592 /* Pods_ZJTools_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		0D5B563FEC9D7AD0466EC9E6 /* ZJTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJTools.podspec; path = ../ZJTools.podspec; sourceTree = "<group>"; };
+		187C00F91C619D0B0048843A /* EZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZJViewController.h; sourceTree = "<group>"; };
+		187C00FA1C619D0B0048843A /* EZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZJViewController.m; sourceTree = "<group>"; };
+		187C01091C61AC4F0048843A /* EZJSocialHotPostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZJSocialHotPostListViewController.h; sourceTree = "<group>"; };
+		187C010A1C61AC4F0048843A /* EZJSocialHotPostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZJSocialHotPostListViewController.m; sourceTree = "<group>"; };
 		2EB2EAD4144526B67CF05A88 /* Pods-ZJTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJTools_Example/Pods-ZJTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FB339AF442B8CBFE818BF75 /* Pods-ZJTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJTools_Example/Pods-ZJTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZJTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,8 +53,6 @@
 		6003F59B195388D20070C39A /* ZJTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJTools-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ZJTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,7 +60,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		874FA6AD89663B7C2B048940 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		982D16E0C725B61A157D7047 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ABA748BE6F4CCA74A3CC23BC /* Pods_ZJTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,11 +131,12 @@
 		6003F593195388D20070C39A /* Example for ZJTools */ = {
 			isa = PBXGroup;
 			children = (
+				187C01091C61AC4F0048843A /* EZJSocialHotPostListViewController.h */,
+				187C010A1C61AC4F0048843A /* EZJSocialHotPostListViewController.m */,
 				6003F59C195388D20070C39A /* ZJAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZJAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZJViewController.h */,
-				6003F5A6195388D20070C39A /* ZJViewController.m */,
+				187C00F91C619D0B0048843A /* EZJViewController.h */,
+				187C00FA1C619D0B0048843A /* EZJViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,8 +392,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				187C00FB1C619D0B0048843A /* EZJViewController.m in Sources */,
+				187C010B1C61AC4F0048843A /* EZJSocialHotPostListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
