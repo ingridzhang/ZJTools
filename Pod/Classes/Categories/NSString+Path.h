@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Extension)
+@interface NSString (Path)
 
 - (NSString *)appendDocumentDir;
 - (NSString *)appendCacheDir;

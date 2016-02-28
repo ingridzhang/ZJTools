@@ -1,14 +1,14 @@
 //
-//  NSString+Extension.m
+//  NSString+Path.m
 //  Pods
 //
 //  Created by Apple on 16/1/20.
 //
 //
 
-#import "NSString+Extension.h"
+#import "NSString+Path.h"
 
-@implementation NSString (Extension)
+@implementation NSString (Path)
 
 - (NSString *)appendDocumentDir{
     
