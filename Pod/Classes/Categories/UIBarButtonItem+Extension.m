@@ -1,10 +1,3 @@
-//
-//  UIBarButtonItem+Extension.m
-//  MyNewBlog
-//
-//  Created by apple on 15/8/30.
-//  Copyright © 2015年 itcast. All rights reserved.
-//
 
 #import "UIBarButtonItem+Extension.h"
 #import "UIButton+Extension.h"

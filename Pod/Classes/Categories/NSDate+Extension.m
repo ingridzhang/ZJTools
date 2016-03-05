@@ -1,10 +1,3 @@
-//
-//  NSDate+Extension.m
-//  MyNewBlog
-//
-//  Created by apple on 15/9/4.
-//  Copyright © 2015年 itcast. All rights reserved.
-//
 
 #import "NSDate+Extension.h"
 

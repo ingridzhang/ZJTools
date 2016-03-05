@@ -1,10 +1,3 @@
-//
-//  NSString+Path.m
-//  Pods
-//
-//  Created by Apple on 16/1/20.
-//
-//
 
 #import "NSString+Path.h"
 

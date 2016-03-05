@@ -1,10 +1,3 @@
-//
-//  UIView+MarkBorder.m
-//  microChannel
-//
-//  Created by eson on 13-11-20.
-//  Copyright (c) 2013年 wbdev. All rights reserved.
-//
 
 #import "UIView+MarkBorder.h"
 

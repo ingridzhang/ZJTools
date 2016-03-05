@@ -1,10 +1,3 @@
-//
-//  EZDispatchCenter.m
-//  EZFramework_example
-//
-//  Created by sun on 15/10/12.
-//  Copyright © 2015年 sunfei. All rights reserved.
-//
 
 #import "EZDispatchCenter.h"
 #import "MJExtension.h"

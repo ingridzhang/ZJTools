@@ -1,10 +1,3 @@
-//
-//  RkyAdditionKit.h
-//  EasyJie
-//
-//  Created by ricky on 14-8-25.
-//  Copyright (c) 2014年 rickycui. All rights reserved.
-//
 
 #ifndef EasyJie_RkyAdditionKit_h
 #define EasyJie_RkyAdditionKit_h

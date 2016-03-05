@@ -1,10 +1,3 @@
-//
-//  NSObject+AssociativeObject.m
-//  niupai
-//
-//  Created by Ryan Wang on 12-9-20.
-//
-//
 
 #import "NSObject+AssociativeObject.h"
 #import <objc/runtime.h>

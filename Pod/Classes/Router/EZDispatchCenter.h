@@ -1,10 +1,3 @@
-//
-//  EZDispatchCenter.h
-//  EZFramework_example
-//
-//  Created by sun on 15/10/12.
-//  Copyright © 2015年 sunfei. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

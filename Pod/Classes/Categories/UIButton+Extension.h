@@ -1,10 +1,3 @@
-//
-//  UIButton+Extension.h
-//  MyNewBlog
-//
-//  Created by apple on 15/8/19.
-//  Copyright © 2015年 itcast. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

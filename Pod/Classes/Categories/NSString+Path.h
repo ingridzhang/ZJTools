@@ -1,10 +1,3 @@
-//
-//  NSString+Extension.h
-//  Pods
-//
-//  Created by Apple on 16/1/20.
-//
-//
 
 #import <Foundation/Foundation.h>
 

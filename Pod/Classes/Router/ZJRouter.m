@@ -8,7 +8,7 @@
 
 #import "ZJRouter.h"
 #import "MGJRouter.h"
-#import "NSString+Extension.h"
+#import "NSString+Path.h"
 #import "EZDispatchCenter.h"
 
 @implementation ZJRouter

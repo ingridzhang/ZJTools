@@ -1,10 +1,3 @@
-//
-//  UIAlertView+BlockAddition.m
-//  iCare_new
-//
-//  Created by eson on 13-12-24.
-//  Copyright (c) 2013年 Tencent. All rights reserved.
-//
 
 #import "UIAlertView+BlockAddition.h"
 
